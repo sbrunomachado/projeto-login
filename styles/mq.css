@@ -23,12 +23,12 @@
     }
     section#login > div#form > form > input{
         font-size: 1em;
-        margin: 4px;
+        margin-top: 4px;
         padding: 4px;
     }
     section#login > div#form > form > div#if > input.SeR{
         font-size: 1em;
-        margin: 4px;
+        margin-top: 4px;
         padding: 4px;
     }
 }
@@ -45,8 +45,22 @@
         background-position: right top;
     }
     section#login > div#form{
+        position: absolute;
+        top: calc(50% - 264px / 2);
+        left: 50%;
         float: right;
         width: 50%;
-        height: 100%;
+        height: 264px;
+        font-size: 1.2em;
+    }
+    section#login > div#form > form > input{
+        font-size: 0.8em;
+        margin-top: 4px;
+        padding: 4px;
+    }
+    section#login > div#form > form > div#if > input.SeR{
+        font-size: 0.8em;
+        margin-top: 4px;
+        padding: 4px;
     }
 }

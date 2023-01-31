@@ -17,9 +17,9 @@
                 <p>
                     Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.
                 </p>
-                <form action="login.html" method="post">
-                    <input type="text" placeholder="Nome de usuário/Email">
-                    <input type="password" placeholder="Senha">
+                <form action="login.html" method="post" autocomplete="on">
+                    <input type="text" placeholder="Nome de usuário/Email" autocomplete="email">
+                    <input type="password" placeholder="Senha" minlength="8" maxlength="30" autocomplete="current-password">
                     <div id="if">
                         <input class="SeR" type="submit" value="Enviar">
                         <input class="SeR" type="button" value="Esqueci a senha">
