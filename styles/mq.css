@@ -13,9 +13,23 @@
         background-position: center top;
     }
     section#login > div#form{
+        position: absolute;
+        top: calc(50% - 307px / 2);
+        left: 40%;
+        font-size: 1.3em;
         float: right;
         width: 60%;
-        height: 100%;
+        height: 307px;
+    }
+    section#login > div#form > form > input{
+        font-size: 1em;
+        margin: 4px;
+        padding: 4px;
+    }
+    section#login > div#form > form > div#if > input.SeR{
+        font-size: 1em;
+        margin: 4px;
+        padding: 4px;
     }
 }
 
