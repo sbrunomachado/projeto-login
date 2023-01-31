@@ -10,20 +10,19 @@
 <body>
     <main>
         <section id="login">
-            <div id="img">
-                <img src="imagens/redondo.jpg" alt="Redondo">
-            </div>
+            <div id="img"></div>
             <div id="form">
                 <h1>Login</h1>
                 <p>
                     Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.
                 </p>
                 <form action="login.html" method="post">
-                    <input type="text">
-                    <input type="text">
-                    <br>
-                    <input type="submit" value="Enviar">
-                    <input type="button" value="Esqueci a senha">
+                    <input type="text" placeholder="Nome de usuário/Email">
+                    <input type="password" placeholder="Senha">
+                    <div id="if">
+                        <input class="SeR" type="submit" value="Enviar">
+                        <input class="SeR" type="button" value="Esqueci a senha">
+                    </div>
                 </form>
             </div>
         </section>
